@@ -322,6 +322,13 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <script>
+document.querySelector("form").addEventListener("submit", function(e) {
+  e.stopImmediatePropagation();
+}, true);
+</script>
+
+  
 </body>
 
 </html>
